@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# other stuff we don't need to share
+/build
+/Support
+/build
