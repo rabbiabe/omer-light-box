@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   id="svg867"
+   version="1.1"
+   viewBox="0 0 215.9 279.40001"
+   height="11in"
+   width="8.5in"
+   sodipodi:docname="boundary squares.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs861" />
+  <sodipodi:namedview
+     units="in"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="in"
+     inkscape:cy="528"
+     inkscape:cx="408.19649"
+     inkscape:zoom="0.80965909"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="1680"
+     inkscape:window-height="1050"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata864">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g5"
+       transform="translate(4.6869099,-4.53572)">
+      <path
+         id="rect3"
+         style="fill:#cccccc;stroke:none;stroke-width:0.352777;stroke-dasharray:2.82223, 1.41111"
+         d="M 52.463094,29.935716 V 131.53572 H 154.06309 V 29.935716 Z m 6.35,6.35 H 147.71309 V 125.18572 H 58.813094 Z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-dasharray:2.82223, 1.41111"
+         id="rect4"
+         width="88.900002"
+         height="88.900002"
+         x="58.813091"
+         y="36.285713" />
+    </g>
+    <g
+       id="g6"
+       transform="translate(4.6869099,122.46429)">
+      <path
+         id="path5"
+         style="fill:#cccccc;stroke:none;stroke-width:0.352777;stroke-dasharray:2.82223, 1.41111"
+         d="M 52.463094,29.935716 V 131.53572 H 154.06309 V 29.935716 Z m 6.35,6.35 H 147.71309 V 125.18572 H 58.813094 Z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-dasharray:2.82223, 1.41111"
+         id="rect5"
+         width="88.900002"
+         height="88.900002"
+         x="58.813091"
+         y="36.285713" />
+    </g>
+  </g>
+</svg>
