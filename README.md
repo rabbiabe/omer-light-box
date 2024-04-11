@@ -1,5 +1,5 @@
 # Edge-Lit Omer Counter
-![Photo of finished project](/images/00-finished-project.jpg)
+![Photo of finished project](images/00-finished-project.jpg)
 ## Objective
 I designed this project to create an attractive reminder device for *sefirat ha-omer*. It does not have all the features that can be found in smartphone apps; my goals were to create an attractive physical device that would have an automatic timeout so it could provide a reminder on Shabbat/Yom Tov without requiring the user to interact directly with the device. The aesthetic concept took inspiration from [this video](https://www.youtube.com/watch?v=wuDAnHHIx6M&pp=ygUTZWxlbWVudDE0IGxlZCBzaWducw%3D%3D).
 
@@ -47,7 +47,7 @@ the project code is broken into a few different modules for clarity and organiza
 - `omer-obj:` OmerCounter class and some data structures for handling Hebrew dates and the omer count. 
 - `display:` Functions and variables to control the OLED and LED string. 
 ### Dependencies
-This project requires [PicoLED](https://github.com/ForsakenNGS/PicoLED) to control the LED strip and [SSD1306_OLED_PICO](https://github.com/gavinlyonsrepo/SSD1306_OLED_PICO) for the screen output. Copy all the files from the PicoLED root into a new folder called lib/PicoLED (you do not need to copy PicoLED/Effects). For the SSD1306 library, copy the src/ and include/ folders into the SSD1306 folder that contains fonts/.
+This project requires [PicoLED](https://github.com/ForsakenNGS/PicoLED) to control the LED strip and [SSD1306_OLED_PICO](https://github.com/gavinlyonsrepo/SSD1306_OLED_PICO) for the screen output. Copy all the files from the PicoLED root into a new folder called `lib/PicoLED` (you do not need to copy `PicoLED/Effects`). For the SSD1306 library, copy the `src/` and `include/` folders into the `SSD1306` folder that already contains `fonts/`.
 
 ## Hardware Assembly
 Here are the basic steps – I will add photos of the steps as I have a chance to take them.
@@ -75,7 +75,7 @@ The goal is to get it so the LEDs hit the plexiglass directly on the skinny edge
 ![Standoff #1](images/06-standoff.jpg)    ![Standoff #2](images/07-standoff.jpg)
 
 ### Assemble stripboard
-There is a [full schematic](hardware/schematic-2.1.pdf) in the hardware/ folder. I made this stripboard layout (also found in hardware/) to connect all the components:
+There is a [full schematic](hardware/schematic-2.1.pdf) in the `hardware/` folder. I made this stripboard layout (also found in `hardware/`) to connect all the components:
 
 ![Stripboard layout for v2.1](hardware/stripboard-layout-2.1.png)
 
@@ -87,7 +87,7 @@ Half of the wires on the stripboard are blocked by the OLED display so make sure
 Use your favorite method. I went with that nice foam double-sided tape.
 
 ### Make your design
-[I put a design template in hardware/](hardware/design-template.svg). For the box i used, the outer quarter-inch or so of the plexiglass was blocked by the wood so i added the gray box to account for that overlap. Design it any way you want! For the supplies I used, I needed 3 sheets of the plexiglass to get the right overall thickness. If you're in a similar boat, you could etch your design onto one sheet and simply sandwich it between two others. I preferred to come up with a layered design and etch each plexiglass sheet with one layer of the total picture.
+[I put a design template in `hardware/`](hardware/design-template.svg). For the box i used, the outer quarter-inch or so of the plexiglass was blocked by the wood so i added the gray box to account for that overlap. Design it any way you want! For the supplies I used, I needed 3 sheets of the plexiglass to get the right overall thickness. If you're in a similar boat, you could etch your design onto one sheet and simply sandwich it between two others. I preferred to come up with a layered design and etch each plexiglass sheet with one layer of the total picture.
 
 ### Etch 3 pieces of plexi
 If you're using the scriber-pens, it's literally as easy as tracing over the design. Experiment with more or less pressure and different stroke styles.
