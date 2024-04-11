@@ -4,6 +4,11 @@
 I designed this project to create an attractive reminder device for *sefirat ha-omer*. It does not have all the features that can be found in smartphone apps; my goals were to create an attractive physical device that would have an automatic timeout so it could provide a reminder on Shabbat/Yom Tov without requiring the user to interact directly with the device. The aesthetic concept took inspiration from [this video](https://www.youtube.com/watch?v=wuDAnHHIx6M&pp=ygUTZWxlbWVudDE0IGxlZCBzaWducw%3D%3D).
 
 ## Architecture
+This project uses the Raspberry Pi Pico real-time clock (RTC) to generate an interrupt once per day. The interrupt routine advances the Omer count to the "next" day, lights up the etched design as a visual reminder to count, and displays the total count, weeks, and days on a standard 128x32 OLED display.
+
+The trimpot voltage is read 10x/second, scaled to the range 40-255, and used to set the LED strip brightness (40 being the approximate minimum level that actually looked good).
+
+When the display is active, the LED strip and OLED are updated 3x/second.
 
 ### Possible features someone else might want to add:
 - Use Pico W to interface with HebCal (or other online API?) to automatically sync current time, Hebrew date, and nightfall
@@ -107,7 +112,7 @@ The trimpot on the stripboard adjusts the LED strip brightness.
 ### Set Mode
 Use *Set Mode* to set the date, clock time, and nightfall time.
 
-To enter or exit *Set Mode*, hold down the encoder button for at least 3 seconds. While *Set Mode* is active, turning the encoder will adjust the selected setting and a short press will advance to the next setting: Date, Time Hour, Minute, Nightfall Hour, Minute. When you are finished setting the clock, hold the encoder button for at least 3 seconds to exit. 
+To enter or exit *Set Mode*, hold down the encoder button for at least 3 seconds. While *Set Mode* is active, turning the encoder will adjust the selected setting and a short press will advance to the next setting: Date, Time Hour, Minute, Nightfall Hour, Minute. When you are finished setting the clock, hold the encoder button for at least 3 seconds to exit. **There is no display timeout in *Set Mode*.**
 
 While in *Set Mode*, the LED strip turns on and the settings are displayed on the OLED as follows:
 - **D**: this is the Hebrew date. The dates are bounded by Rosh Hodesh Nisan and Shavuot – You will not be able to set a date earlier than 1 Nisan or later than 5 Sivan. Opening the days before Pesah allows a user to set the alarm before *yom tov* in order not to interact with the device.
