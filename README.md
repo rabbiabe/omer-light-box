@@ -11,9 +11,9 @@ The trimpot voltage is read 10x/second, scaled to the range 40-255, and used to 
 When the display is active, the LED strip and OLED are updated 3x/second.
 
 ### Possible features someone else might want to add:
-- Use Pico W to interface with HebCal (or other online API?) to automatically sync current time, Hebrew date, and nightfall
-- Audio reminder 
-- Text of blessing (would probably require a larger screen...)
+- Use Pico W to interface with an online API like [zmanimapi](https://github.com/rosenbergj/zmanimapi/) to automatically sync current time, Hebrew date, and nightfall
+- Audio reminder (I personally hate things that beep at me but LYBL)
+- Text of blessing (would probably require a larger screen... and there's plenty of room on the outside of the box to add static text)
 - Make display timeouts configurable while active (currently hard-coded at 13s for quick view and 5h for alarm-triggered display)
 
 ## Materials
