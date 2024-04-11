@@ -404,3 +404,4 @@ FodyWeavers.xsd
 /lib/PicoLED
 /lib/SSD1306/include
 /lib/SSD1306/src
+images/.DS_Store

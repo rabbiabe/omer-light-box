@@ -55,18 +55,24 @@ Here are the basic steps – I will add photos of the steps as I have a chance 
 ### Drill Hole for DC jack
 Put the whole wherever it makes sense – for mine, 0.75" up and 1" in from the bottom left corner of the back panel was about right – roughly in the middle of the hinge and halfway to the bottom. Make whatever size hole you need for the jacks you have.
 
-![Marking the drill hole](images/01-mark-drill-location.jpg)     ![Drill hole for DC Jack](images/02-drill-hole-dc.jpg)
+![Marking the drill hole](images/01-mark-drill-location.jpg)    ![Drill hole for DC Jack](images/02-drill-hole-dc.jpg)
 
 There was a decent amount of tear-out so I hit the drill area with some 220-grit sandpaper to clean it up.
 
 ### Attach wires to LED strip
 This will be much easier to do before you stick the strip down.
 
+![LED Strip Wiring #1](images/03-led-strip.jpg)    ![LED Strip Wiring #2](images/04-led-strip.jpg)
+
 ### Affix LED strip
 The boxes I used perfectly fit a strip of 24 LEDs. As you look at the underside of the lid, first position the strip so that your wires are in one of the corners and the strip makes all the corners cleanly – no LEDs weirdly diagonal in a corner. Then peel the backing tape and stick the strip inside the lip of the box, so that all the LEDs are aimed back toward the middle of the box. The sticky tape on my strips didn't inspire a lot of confidence so I also slipped a little hot glue in to help it stay. I also put a glob of hot glue over the solder joint to protect against mechanical strain – the pads on these strips are easy to pull off and lose your connection.
 
+![LED Strip Placement](images/05-led-strip.jpg)
+
 ### Add standoffs/spacers
 The goal is to get it so the LEDs hit the plexiglass directly on the skinny edge. I used some old 2mm (5/64") basswood scraps and that was the right height, but it won't show in the finished product so anything that gets you the right offset will work.
+
+![Standoff #1](images/06-standoff.jpg)    ![Standoff #2](images/07-standoff.jpg)
 
 ### Assemble stripboard
 There is a [full schematic](hardware/schematic-2.1.pdf) in the hardware/ folder. I made this stripboard layout (also found in hardware/) to connect all the components:
